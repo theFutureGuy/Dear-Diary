@@ -11,7 +11,7 @@ let bodyParser = require('body-parser')
 let session = require('express-session');
 let flash = require('connect-flash')
 
-dotenv.config({path: './config.env'})
+dotenv.config()
 mongoose.connect(process.env.mongodburl);
 app.set('view engine', 'ejs')
 
