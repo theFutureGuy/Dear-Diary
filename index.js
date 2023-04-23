@@ -26,10 +26,10 @@ app.use(session({
    resave:true,
    saveUninitialized:true
 }))
+
 //flash middleweare
 app.use(flash())
 
-//globaly variable set for operation (like sucess , error) message
 app.use((req, res, next)=>{
  res.locals.sucess = req.flash('sucess'),
  res.locals.err = req.flash('err')
