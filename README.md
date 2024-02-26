@@ -4,17 +4,12 @@ Got it, you'd like to change the name "JANKO" to "Blogger" throughout the docume
 
 Blogger is a content management system that allows you to sign up for an account and create a post. You're to provide the post body in markdown format (Blogger will parse the markdown into text).
 
-Here's a short DEMO of the application:
-
-[![Watch the video](https://img.youtube.com/vi/MGnj7CuweWs/hqdefault.jpg)](https://youtu.be/MGnj7CuweWs)
 
 ## Getting Started
 
 1. Clone this project's source code to your local dev machine
 2. Run `npm i` to install dependencies
 3. Finally, run `node server.js` to start up the application
-
-## Screenshots
 
 
 ## APIs
