@@ -1,5 +1,3 @@
-Got it, you'd like to change the name "JANKO" to "Blogger" throughout the documentation. Here's the modified version:
-
 ## Blogger CMS
 
 Blogger is a content management system that allows you to sign up for an account and create a post. You're to provide the post body in markdown format (Blogger will parse the markdown into text).
